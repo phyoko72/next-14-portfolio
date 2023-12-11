@@ -1,0 +1,32 @@
+{
+    "theme_color": "#0c0c1d",
+    "background_color": "#0c0c1d",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "name": "Phyo Ko Ko",
+    "short_name": "PKK",
+    "description": "Phyo Ko Ko's Portfolio",
+    "icons": [
+        {
+            "src": "/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

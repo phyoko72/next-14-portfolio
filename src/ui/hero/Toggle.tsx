@@ -13,7 +13,7 @@ export default function MyNav() {
             display: "block",
         },
         hidden: {
-            clipPath: "circle(25px at 50px 50px)",
+            clipPath: "circle(25px at 30px 50px)",
             display: "block",
         },
     }
@@ -34,7 +34,7 @@ export default function MyNav() {
         >
             <button
                 onClick={toggle}
-                className=" absolute top-[25px] left-[25px] z-50 w-[50px] h-[50px] flex justify-center items-center "
+                className=" absolute top-[25px] left-[5px] z-50 w-[50px] h-[50px] flex justify-center items-center "
             >
                 <Hamburger isOpen={isOpen} />
             </button>

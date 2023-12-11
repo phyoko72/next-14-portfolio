@@ -44,7 +44,7 @@ export default function Form() {
                     Failed
                 </h1>
             )}
-            {!isSuccess && (
+            {isSuccess && (
                 <h1 className=" text-base text-center py-2 mb-2 bg-green-700 text-white rounded-lg">
                     Success
                 </h1>

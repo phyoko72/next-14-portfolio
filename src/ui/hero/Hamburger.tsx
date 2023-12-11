@@ -22,15 +22,15 @@ export default function Hamburger({isOpen}: {isOpen: boolean}) {
             <div className=" w-fit">
                 <motion.span
                     variants={v1}
-                    className=" w-9 h-1 mb-1 block bg-black "
+                    className=" w-7 h-1 mb-1 block bg-black "
                 ></motion.span>
                 <motion.span
                     variants={v2}
-                    className=" w-9 h-1 mb-1 block bg-black "
+                    className=" w-7 h-1 mb-1 block bg-black "
                 ></motion.span>
                 <motion.span
                     variants={v3}
-                    className=" w-9 h-1 block bg-black "
+                    className=" w-7 h-1 block bg-black "
                 ></motion.span>
             </div>
         </motion.div>

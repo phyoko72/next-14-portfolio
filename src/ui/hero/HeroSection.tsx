@@ -65,7 +65,7 @@ export default function HeroSection() {
             </div>
 
             <div className=" absolute -bottom-12 left-0 right-0 overflow-hidden whitespace-nowrap uppercase">
-                <h1 className=" text-[18rem] font-bold animate-marquee text-marquee w-fit">
+                <h1 className=" text-[10rem] md:text-[18rem] font-bold animate-marquee text-marquee w-fit">
                     A Full Stack Developer
                 </h1>
             </div>

@@ -44,7 +44,7 @@ export default function HeroSection() {
                     </Link>
 
                     <Link
-                        href={"#Projects"}
+                        href={"#Contact"}
                         className=" border border-white p-2 text-sm rounded-lg "
                     >
                         Contact Me

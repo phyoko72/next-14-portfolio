@@ -55,6 +55,7 @@ export default function MyNav() {
                             variants={itemVariants}
                             whileHover={{scale: 1.2}}
                             whileTap={{scale: 0.9}}
+                            onClick={toggle}
                         >
                             <Link href={`#${item}`} className=" text-xl">
                                 {" "}

@@ -1,6 +1,7 @@
 "use client"
 import {motion, useScroll, useSpring} from "framer-motion"
 import {useRef} from "react"
+import nextBlog from "@/../public/projects/next_blog.png"
 import dream from "@/../public/projects/dream_dictionary.png"
 import mtk from "@/../public/projects/mtk.png"
 import proverbs from "@/../public/projects/proverbs.png"
@@ -21,6 +22,12 @@ export default function Portfilio1() {
     })
 
     const projects = [
+        {
+            image: nextBlog,
+            title: "Next Blog App",
+            demo: "https://next14blogapp.vercel.app/",
+            repo: "https://github.com/phyoko72/Next-Blog-App",
+        },
         {
             image: dream,
             title: "Dream Dictionary",
